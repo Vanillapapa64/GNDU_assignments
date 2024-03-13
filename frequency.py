@@ -27,17 +27,17 @@ while x!=0:
         a9+=1
     continue
 if a0>0:
-    print(f"frequency of 0 is{a0}")
+    print(f"frequency of 0 is {a0}")
 if a1>0:
-    print(f"frequency of 1 is{a1}")
+    print(f"frequency of 1 is {a1}")
 if a2>0:
-    print(f"frequency of 2 is{a2}")
+    print(f"frequency of 2 is {a2}")
 if a3>0:
-    print(f"frequency of 3 is{a3}")
+    print(f"frequency of 3 is {a3}")
 if a4>0:
-    print(f"frequency of 4 is{a4}")
+    print(f"frequency of 4 is {a4}")
 if a5>0:
-    print(f"frequency of 5 is{a5}")
+    print(f"frequency of 5 is {a5}")
 if a6>0:
     print(f"frequency of 6 is {a6}")
 if a7>0:
