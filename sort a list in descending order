@@ -1,0 +1,6 @@
+list1=[45,56,98,100,66]
+for i in range(0,len(list1)):
+    for j in range(i+1,len(list1)):
+        if list1[j]>=list1[i]:
+            list1[j],list1[i]=list1[i],list1[j]
+print(list1)
