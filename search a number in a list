@@ -1,0 +1,7 @@
+list1=[7,8,3,6,7,9,10]
+number_to_find=9
+for i in range(0,len(list1)):
+    if list1[i]==number_to_find:
+        print(f'number found in at {i}th index')
+    else:
+        pass
