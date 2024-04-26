@@ -1,0 +1,6 @@
+highest_number=0
+for i in range(0,5):
+    user=int(input("enter a number:"))
+    if user>highest_number:
+        highest_number=user
+print(highest_number)
