@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <script>
+        function redirect(){
+            window.location.href="https://signup.zerodha.com"
+        }
+        function redirect2(){
+            window.location.href="https://zerodha.com/open-account"
+        }
+    </script>
+    <style>
+        .image{
+            width: 70vw;
+        }
+        .logo{
+            max-height: 17px;
+            vertical-align: middle;
+            top: 18px;
+            padding-left: 160px;
+        }
+        .hero-section{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-bottom-style: solid;
+            border-color: rgb(140, 140, 140);
+            border-width: 1px;
+
+        }
+        .options{
+            font-family:'Inter',serif;
+            display: flex;
+            gap: 60px;
+            padding-right: 160px;
+        }
+        .single:hover{
+            color: #387ed1;
+            cursor: pointer;
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+        }   
+        .container{
+            text-align: center;
+            align-content: center;
+        }
+        .heading{
+            font-family:'Inter',serif;
+            padding-top: 30px;
+            font-size: 46px;
+        }
+        .heading2{
+            font-family:'Inter',serif;
+            padding: 15px;
+            font-size: 20px;
+        }
+        .button{
+            background-color: #387ed1;
+            border-radius: 5px;
+            width: 200px;
+            font-size: 20px;
+            height: 60px;
+            align-content: center;
+            font-family:'Inter',serif;
+        }
+        .button-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+        .single{
+            font-family:'Inter',serif;
+        }
+    </style>
+    <body>
+        <div class="screen">
+            <div class="hero-section">
+                <div ><img class="logo" src="https://zerodha.com/static/images/logo.svg"></div>
+                <div class="options">
+                    <div onclick="redirect()" class="single">Signup</div>
+                    <div class="single">About</div>
+                    <div class="single">Products</div>
+                    <div class="single">Pricing</div>
+                    <div class="single">Support</div>
+                </div>
+                
+            </div>
+            <div class="body">
+                <div class="container">
+                        <div ><img class="image" src="https://zerodha.com/static/images/landing.png"></div>
+                    <div class="heading"> Invest in everything </div>
+                    <div class="heading2">Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</div>
+                    <div class="button-container">
+                        <div onclick="redirect2()" class="button">Sign up for Free</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
